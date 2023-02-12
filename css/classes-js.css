@@ -1,0 +1,12 @@
+.select {
+  background-image: url(../img/header-opted.svg);
+  background-repeat: no-repeat;
+}
+
+.open {
+  display: block;
+}
+
+.sale-wrapp__select {
+  display: none;
+}

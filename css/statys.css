@@ -1,0 +1,131 @@
+.hover-btn {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .hover-btn:hover {
+    background-color: var(--hover-btn);
+  }
+  
+  .hover-btn:active {
+    background-color: var(--active-btn);
+  }
+  
+  .product-selection__btn-purchase {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .product-selection__btn-purchase:hover {
+    background-color: var(--color-text);
+    color: var(--colo-btn);
+  }
+  
+  .product-selection__btn-purchase:active {
+    background-color: var(--active-btn);
+  }
+  
+  .product-size__btn:hover {
+    border-color: var(--color-text);
+  }
+  
+  .product-size__btn:active {
+    color: var(--colo-btn);
+    background-color: var(--color-text);
+  }
+  
+  .product-color__item:active {
+    border-color: var(--color-text);
+  }
+  
+  .nav__link:hover {
+    opacity: 0.5;
+  }
+  
+  .btn-like path {
+    transition: fill 0.3s ease-in-out;
+  }
+  
+  .btn-like:hover path {
+    fill: var(--hover-like);
+  }
+  
+  .btn-like:active path {
+    fill: var(--color-sale-bckgr);
+  }
+  
+  .header-right__btn:hover {
+    background-color: var(--icon-hover);
+  }
+  
+  .header-right__btn:active {
+    background-color: var(--icon-active);
+  }
+  
+  .btn-icon path {
+    transition: fill 0.3s ease-in-out;
+  }
+  
+  .btn-icon:hover path {
+    fill: var(--hover-like);
+  }
+  
+  .product-size__button:hover circle {
+    fill: var(--hover-circle);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .btn-stroke:hover line {
+    stroke: var(--hover-like);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .header-right__link:hover {
+    opacity: 0.5;
+  }
+  
+  .header-svg:hover path {
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .articles-box__link:hover {
+    opacity: 0.5;
+  }
+  
+  .product-selection__button:hover {
+    color: var(--hover-like);
+  }
+  
+  .nav__btn:hover path {
+    fill: var(--hover-like);
+  }
+  
+  .section-btn:hover {
+    background-color: var(--backgr-time);
+    border-color: var(--color-text);
+  }
+  
+  
+  .btn-left:active img {
+    transform: translateX(-10px);
+  }
+  
+  .btn-right:active img {
+    transform: translateX(10px);
+  }
+  
+  .hero-box__btn-prev:hover {
+    border-color: var(--color-text);
+  }
+  
+  .hero-box__btn-next:hover {
+    border-color: var(--color-text);
+  }
+  
+  .sale-box__btn:hover {
+    background-color: var(--sale-hover);
+  }
+  
+  .sale-box__item .sale-box__btn:active {
+    background-color: var(--color-text);
+    color: var(--colo-btn);
+  }

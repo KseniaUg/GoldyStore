@@ -1,0 +1,28 @@
+.categories {
+  margin-bottom: 123px;
+}
+
+.categories__link {
+  background-color: var(--color-bckgr);
+  padding: 37px 36px 25px 42px;
+  display: block;
+  display: flex;
+  min-height: 259px;
+  min-width: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.categories__paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.categories_img:hover {
+  transform: scale(1.2);
+  transition: 0.5s ease-in-out;
+}

@@ -1,0 +1,30 @@
+:root {
+    /* --container-max-width: 1330px;
+    --container-padding: 15px;
+    --colums: 12;
+    --gutter: 20px; */
+    --color-text: #303030;
+    --color-bckgr: #F8F8F8;
+    --colo-btn: #ffffff;
+    --color-sale: #5B8A8F;
+    --color-through: #8F8F8F;
+    --color-sale-bckgr: #E24B33;
+    --color-sale-content: #E1A661;
+    --color-new: #495159;
+    --color-product-one: #D9D9D9;
+    --color-product-two: #F1CB7E;
+    --color-product-three: #EA8C48;
+    --color-product-four: #A7E492;
+    --color-border: #DADADA;
+    --color-time: #D0D0D0;
+    --backgr-time: #F5F5F5;
+    --backgr-select: #F0F0F0;
+    --hover-btn: #505050;
+    --active-btn: #000000;
+    --sale-hover: #dddddd;
+    --hover-like: #979797;
+    --icon-hover: #F8F8F8;
+    --icon-active: #E8E7E7;
+    --hover-circle: #D3D3D3;
+    --color-placholder: #A2A2A2;
+  }

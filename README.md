@@ -1,2 +1,0 @@
-# GoldyStore
-jewelry store website

@@ -16,25 +16,21 @@
 </head>
 
 <body>
-
-    <div class="select">
-        <div class="backdrop"></div>
-    </div>
     <header class="header">
         <div class="container">
             <div class="header__box">
                 <div class="header__left">
                     <div class="header-left__location">
-                        <div class="header-left__seleсt" data-shown="false">
-                            <div class="header-left__backdrop"></div>
+                        <div class="header-left__seleсt" data-select data-shown="false">
+                            <div class="header-left__backdrop" data-backdrop></div>
                             <svg class="header-svg" width="12" height="16" viewBox="0 0 12 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M5.99998 0C2.80482 0 0.205383 2.59944 0.205383 5.79456C0.205383 9.75981 5.39098 15.581 5.61176 15.8269C5.81913 16.0579 6.1812 16.0575 6.3882 15.8269C6.60898 15.581 11.7946 9.75981 11.7946 5.79456C11.7945 2.59944 9.1951 0 5.99998 0ZM5.99998 8.70997C4.39241 8.70997 3.0846 7.40213 3.0846 5.79456C3.0846 4.187 4.39245 2.87919 5.99998 2.87919C7.60751 2.87919 8.91532 4.18703 8.91532 5.79459C8.91532 7.40216 7.60751 8.70997 5.99998 8.70997Z"
                                     fill="#303030" />
                             </svg>
-                            <span class="paragraph header-left__paragraph" data-select>Санкт-Петербург</span>
-                            <ul class="list header-left__list">
+                            <span class="paragraph header-left__paragraph" data-caption>Санкт-Петербург</span>
+                            <ul class="list header-left__list" data-list>
                                 <li class="header-left__item" data-select-option>Санкт-Петербург</li>
                                 <li class="header-left__item" data-select-option>Москва</li>
                                 <li class="header-left__item select" data-select-option>Нижний Новгород</li>
@@ -268,10 +264,10 @@
                     <div class="sale-box__btns">
                         <button class="btn-reset section-btn btn-left sale-box__button-prew">
                             <img src="./img/hero-next.png" alt="Кнопка предыдущий слайд">
-                            </class=>
-                            <button class="btn-reset section-btn btn-right sale-box__button-next">
-                                <img src="./img/hero-prew.png" alt="Кнопка следующий слайд">
-                            </button>
+                        </button>
+                        <button class="btn-reset section-btn btn-right sale-box__button-next">
+                            <img src="./img/hero-prew.png" alt="Кнопка следующий слайд">
+                        </button>
                     </div>
                 </div>
                 <div class="sale__wrapp">
@@ -319,6 +315,26 @@
                                         Стильное кольцо из&nbsp;белого золота c&nbsp;бриллиантами
                                     </p>
                                 </div>
+                                <div class="sale-wrapp__footer">
+                                    <div class="sale-wrapp__select" data-select data-shown="false">
+                                        <div class="sale-wrapp__backdrop" data-backdrop></div>
+                                        <span class="paragraph sale-wrapp__descr" data-caption>Белое золото</span>
+                                        <ul class="list sale-wrapp__material" data-list>
+                                            <li class="sale-material__item select" data-select-option>Белое золото</li>
+                                            <li class="sale-material__item" data-select-option>Желтое золото</li>
+                                            <li class="sale-material__item" data-select-option>Серебро</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sale-wrapp__select" data-select data-shown="false">
+                                        <div class="sale-wrapp__backdrop" data-backdrop></div>
+                                        <span class="paragraph sale-wrapp__descr" data-caption>Размер 16</span>
+                                        <ul class="list sale-wrapp__material" data-list>
+                                            <li class="sale-material__item select" data-select-option>Размер 16</li>
+                                            <li class="sale-material__item" data-select-option>Размер 17</li>
+                                            <li class="sale-material__item" data-select-option>Размер 18</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </li>
                         <li class="col-lg-3 sale-wrapp__item">
@@ -364,25 +380,25 @@
                                         Стильное кольцо из&nbsp;белого золота c&nbsp;бриллиантами
                                     </p>
                                 </div>
-                                <div class="sale-wrapp__select">
-                                    <div class="sale-wrapp__opted">
-                                        <p class="paragraph sale-wrapp__descr">Белое золото</p>
+                                <div class="sale-wrapp__footer">
+                                    <div class="sale-wrapp__select" data-select data-shown="false">
+                                        <div class="sale-wrapp__backdrop" data-backdrop></div>
+                                        <span class="paragraph sale-wrapp__descr" data-caption>Белое золото</span>
+                                        <ul class="list sale-wrapp__material" data-list>
+                                            <li class="sale-material__item select" data-select-option>Белое золото</li>
+                                            <li class="sale-material__item" data-select-option>Желтое золото</li>
+                                            <li class="sale-material__item" data-select-option>Серебро</li>
+                                        </ul>
                                     </div>
-                                    <ul class="list sale-wrapp__material">
-                                        <li class="sale-material__item select">Белое золото</li>
-                                        <li class="sale-material__item">Желтое золото</li>
-                                        <li class="sale-material__item">Серебро</li>
-                                    </ul>
-                                </div>
-                                <div class="sale-wrapp__select">
-                                    <div class="sale-wrapp__opted">
-                                        <p class="paragraph sale-wrapp__descr">Размер 16</p>
+                                    <div class="sale-wrapp__select" data-select data-shown="false">
+                                        <div class="sale-wrapp__backdrop" data-backdrop></div>
+                                        <span class="paragraph sale-wrapp__descr" data-caption>Размер 16</span>
+                                        <ul class="list sale-wrapp__material" data-list>
+                                            <li class="sale-material__item select" data-select-option>Размер 16</li>
+                                            <li class="sale-material__item" data-select-option>Размер 17</li>
+                                            <li class="sale-material__item" data-select-option>Размер 18</li>
+                                        </ul>
                                     </div>
-                                    <ul class="list sale-wrapp__size">
-                                        <li class="sale-size__item select">Размер 16</li>
-                                        <li class="sale-size__item">Размер 17</li>
-                                        <li class="sale-size__item">Размер 18</li>
-                                    </ul>
                                 </div>
                             </div>
                         </li>
@@ -429,6 +445,26 @@
                                         Стильное кольцо из&nbsp;белого золота c&nbsp;бриллиантами
                                     </p>
                                 </div>
+                                <div class="sale-wrapp__footer">
+                                    <div class="sale-wrapp__select" data-select data-shown="false">
+                                        <div class="sale-wrapp__backdrop" data-backdrop></div>
+                                        <span class="paragraph sale-wrapp__descr" data-caption>Белое золото</span>
+                                        <ul class="list sale-wrapp__material" data-list>
+                                            <li class="sale-material__item select" data-select-option>Белое золото</li>
+                                            <li class="sale-material__item" data-select-option>Желтое золото</li>
+                                            <li class="sale-material__item" data-select-option>Серебро</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sale-wrapp__select" data-select data-shown="false">
+                                        <div class="sale-wrapp__backdrop" data-backdrop></div>
+                                        <span class="paragraph sale-wrapp__descr" data-caption>Размер 16</span>
+                                        <ul class="list sale-wrapp__material" data-list>
+                                            <li class="sale-material__item select" data-select-option>Размер 16</li>
+                                            <li class="sale-material__item" data-select-option>Размер 17</li>
+                                            <li class="sale-material__item" data-select-option>Размер 18</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </li>
                         <li class="col-lg-3 sale-wrapp__item">
@@ -473,6 +509,26 @@
                                     <p class="paragraph sale-wrapp__text">
                                         Стильное кольцо из&nbsp;белого золота c&nbsp;бриллиантами
                                     </p>
+                                </div>
+                                <div class="sale-wrapp__footer">
+                                    <div class="sale-wrapp__select" data-select data-shown="false">
+                                        <div class="sale-wrapp__backdrop" data-backdrop></div>
+                                        <span class="paragraph sale-wrapp__descr" data-caption>Белое золото</span>
+                                        <ul class="list sale-wrapp__material" data-list>
+                                            <li class="sale-material__item select" data-select-option>Белое золото</li>
+                                            <li class="sale-material__item" data-select-option>Желтое золото</li>
+                                            <li class="sale-material__item" data-select-option>Серебро</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sale-wrapp__select" data-select data-shown="false">
+                                        <div class="sale-wrapp__backdrop" data-backdrop></div>
+                                        <span class="paragraph sale-wrapp__descr" data-caption>Размер 16</span>
+                                        <ul class="list sale-wrapp__material" data-list>
+                                            <li class="sale-material__item select" data-select-option>Размер 16</li>
+                                            <li class="sale-material__item" data-select-option>Размер 17</li>
+                                            <li class="sale-material__item" data-select-option>Размер 18</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -537,10 +593,10 @@
                     <div class="product__btns">
                         <button class="btn-reset section-btn btn-left product__button-prew">
                             <img src="./img/hero-next.png" alt="Кнопка предыдущий слайд">
-                            </class=>
-                            <button class="btn-reset section-btn btn-right product__button-next">
-                                <img src="./img/hero-prew.png" alt="Кнопка следующий слайд">
-                            </button>
+                        </button>
+                        <button class="btn-reset section-btn btn-right product__button-next">
+                            <img src="./img/hero-prew.png" alt="Кнопка следующий слайд">
+                        </button>
                     </div>
                 </div>
                 <div class="product__body">
@@ -557,10 +613,10 @@
                             <div class="product-left__btns">
                                 <button class="btn-reset product-left__button-prew">
                                     <img src="./img/articles-prew.png" alt="Кнопка предыдущий слайд">
-                                    </class=>
-                                    <button class="btn-reset product-left__button-next">
-                                        <img src="./img/artickles-next.png" alt="Кнопка следующий слайд">
-                                    </button>
+                                </button>
+                                <button class="btn-reset product-left__button-next">
+                                    <img src="./img/artickles-next.png" alt="Кнопка следующий слайд">
+                                </button>
                             </div>
                         </div>
                     </div>

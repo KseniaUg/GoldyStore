@@ -1,23 +1,22 @@
-export const citySelect = document.querySelector('.header-left__seleсt');
-const cityMenu = document.querySelector('.header-left__list');
-const p = citySelect.querySelector('[data-select]');
+export const select = document.querySelectorAll('[data-select]');
 
-citySelect.addEventListener('click', (e) => {
-  const shown = citySelect.dataset.shown === 'true';
+[...select].forEach((element) => {
+  const menu = element.querySelector('[data-list]');
+  const caption = element.querySelector('[data-caption]');
 
-  shown
-    ? animateFadeOut(citySelect, cityMenu)
-    : animateFadeIn(citySelect, cityMenu);
+  element.addEventListener('click', (e) => {
+    const shown = element.dataset.shown === 'true';
 
-  if (e.target.hasAttribute('data-select-option')) {
-    citySelect
-      .querySelector('.header-left__item.select')
-      .classList.remove('select');
+    shown ? animateFadeOut(element, menu) : animateFadeIn(element, menu);
 
-    e.target.classList.add('select');
+    if (e.target.hasAttribute('data-select-option')) {
+      element.querySelector('.select').classList.remove('select');
 
-    p.textContent = e.target.textContent;
-  }
+      e.target.classList.add('select');
+
+      caption.textContent = e.target.textContent;
+    }
+  });
 });
 
 function animateFadeIn(element, menu) {
